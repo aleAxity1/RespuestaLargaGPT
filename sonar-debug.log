@@ -1,4 +1,4 @@
-DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
+[DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
 [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Alejandro.Camacho\.m2\repository
 [INFO] Scanning for projects...
 [DEBUG] Extension realms for project com.example:sonar-test:jar:1.0-SNAPSHOT: (none)
@@ -53,9 +53,9 @@ DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
   <verbose>${maven.clean.verbose}</verbose>
 </configuration>
 [DEBUG] =======================================================================
-[INFO]
+[INFO] 
 [INFO] --- clean:3.2.0:clean (default-clean) @ sonar-test ---
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=2697300, ConflictMarker.markTime=216100, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=1342800, ConflictIdSorter.topsortTime=850400, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6070900, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=131510100, DfDependencyCollector.transformTime=23092900}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1108800, ConflictMarker.markTime=116200, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=567200, ConflictIdSorter.topsortTime=489100, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4261100, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=117999000, DfDependencyCollector.transformTime=11691100}
 [DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
 [DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
 [DEBUG]       commons-io:commons-io:jar:2.6:compile
@@ -111,13 +111,13 @@ DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
   <skip default-value="false">${sonar.skip}</skip>
 </configuration>
 [DEBUG] =======================================================================
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=18900, ConflictMarker.markTime=49600, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=3200, ConflictIdSorter.topsortTime=6800, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=12400, ConflictResolver.conflictItemCount=0, DfDependencyCollector.collectTime=10300, DfDependencyCollector.transformTime=117000}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=19600, ConflictMarker.markTime=95700, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=5300, ConflictIdSorter.topsortTime=8700, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=27500, ConflictResolver.conflictItemCount=0, DfDependencyCollector.collectTime=12000, DfDependencyCollector.transformTime=209500}
 [DEBUG] com.example:sonar-test:jar:1.0-SNAPSHOT
-[INFO] 
+[INFO]
 [INFO] --- sonar:3.9.1.2184:sonar (default-cli) @ sonar-test ---
 [DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
 [DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=79700, ConflictMarker.markTime=64700, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=57300, ConflictIdSorter.topsortTime=17600, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=300100, ConflictResolver.conflictItemCount=7, DfDependencyCollector.collectTime=138100500, DfDependencyCollector.transformTime=547100}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=422100, ConflictMarker.markTime=537300, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=244900, ConflictIdSorter.topsortTime=128400, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3553000, ConflictResolver.conflictItemCount=7, DfDependencyCollector.collectTime=243514100, DfDependencyCollector.transformTime=5027800}
 [DEBUG] org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184
 [DEBUG]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
 [DEBUG]       org.sonatype.plexus:plexus-cipher:jar:1.4:compile
@@ -140,23 +140,23 @@ DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
 [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@16872c4d
 [DEBUG]   (f) skip = false
 [DEBUG] -- end configuration --
-[DEBUG] 20:27:27.718 keyStore is : 
-[DEBUG] 20:27:27.720 keyStore type is : pkcs12
-[DEBUG] 20:27:27.721 keyStore provider is :
-[DEBUG] 20:27:27.722 init keystore
-[DEBUG] 20:27:27.723 init keymanager of type SunX509
-[DEBUG] 20:27:28.041 Create: C:\Users\Alejandro.Camacho\.sonar\cache
-[INFO] 20:27:28.043 User cache: C:\Users\Alejandro.Camacho\.sonar\cache
-[DEBUG] 20:27:28.043 Create: C:\Users\Alejandro.Camacho\.sonar\cache\_tmp
-[DEBUG] 20:27:28.046 Extract sonar-scanner-api-batch in temp...
-[DEBUG] 20:27:28.053 Get bootstrap index...
-[DEBUG] 20:27:28.053 Download: http://localhost:9000/batch/index
-[DEBUG] 20:27:28.165 Get bootstrap completed
-[DEBUG] 20:27:28.167 Create isolated classloader...
-[DEBUG] 20:27:28.172 Start temp cleaning...
-[DEBUG] 20:27:28.234 Temp cleaning done
-[DEBUG] 20:27:28.235 Execution getVersion
-[INFO] 20:27:28.255 SonarQube version: 25.2.0.102705
+[DEBUG] 20:44:14.589 keyStore is : 
+[DEBUG] 20:44:14.590 keyStore type is : pkcs12
+[DEBUG] 20:44:14.590 keyStore provider is :
+[DEBUG] 20:44:14.590 init keystore
+[DEBUG] 20:44:14.590 init keymanager of type SunX509
+[DEBUG] 20:44:14.857 Create: C:\Users\Alejandro.Camacho\.sonar\cache
+[INFO] 20:44:14.859 User cache: C:\Users\Alejandro.Camacho\.sonar\cache
+[DEBUG] 20:44:14.859 Create: C:\Users\Alejandro.Camacho\.sonar\cache\_tmp
+[DEBUG] 20:44:14.862 Extract sonar-scanner-api-batch in temp...
+[DEBUG] 20:44:14.870 Get bootstrap index...
+[DEBUG] 20:44:14.870 Download: http://localhost:9000/batch/index
+[DEBUG] 20:44:15.128 Get bootstrap completed
+[DEBUG] 20:44:15.129 Create isolated classloader...
+[DEBUG] 20:44:15.135 Start temp cleaning...
+[DEBUG] 20:44:15.196 Temp cleaning done
+[DEBUG] 20:44:15.197 Execution getVersion
+[INFO] 20:44:15.241 SonarQube version: 25.2.0.102705
 [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
 [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]    
 [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
@@ -172,30 +172,30 @@ DEBUG] Using local repository at C:\Users\Alejandro.Camacho\.m2\repository
 [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
 [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]    
 [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
-[INFO] 20:27:28.447 Default locale: "es_MX", source code encoding: "windows-1252" (analysis is platform dependent)
-[DEBUG] 20:27:28.449 Work directory: C:\Users\Alejandro.Camacho\Documents\Git\Azure\POC-BC-ATV-BACKEND-SERVICE\sonar-test\target\sonar 
-[DEBUG] 20:27:28.452 Execution execute
-[DEBUG] 20:27:29.027 JVM max available memory: 1 GB
-[DEBUG] 20:27:29.269 Community 25.2.0.102705
-[DEBUG] 20:27:29.615 Sonar User Home: C:\Users\Alejandro.Camacho\.sonar
-[DEBUG] 20:27:29.645 Loading OS trusted SSL certificates...
-[DEBUG] 20:27:29.645 This operation might be slow or even get stuck. You can skip it by passing the scanner property 'sonar.scanner.skipSystemTruststore=true'
-[DEBUG] 20:27:29.965 Successfully loaded KeyStore of the type [Windows-ROOT] having [55] entries
-[DEBUG] 20:27:29.966 Failed to load KeyStore of the type [Windows-ROOT-LOCALMACHINE]
-[DEBUG] 20:27:30.139 Successfully loaded KeyStore of the type [Windows-ROOT-CURRENTUSER] having [55] entries
-[DEBUG] 20:27:30.172 Successfully loaded KeyStore of the type [Windows-MY] having [0] entries
-[DEBUG] 20:27:30.178 Successfully loaded KeyStore of the type [Windows-MY-CURRENTUSER] having [0] entries
-[DEBUG] 20:27:30.181 Failed to load KeyStore of the type [Windows-MY-LOCALMACHINE]
-[DEBUG] 20:27:30.185 Loaded [110] system trusted certificates
-[INFO] 20:27:30.455 Load global settings
-[DEBUG] 20:27:30.506 --> GET http://localhost:9000/api/settings/values.protobuf
-[DEBUG] 20:27:30.598 <-- 401 http://localhost:9000/api/settings/values.protobuf (92ms, 0-byte body)
-[DEBUG] 20:27:30.602 Error response content: , headers: {connection=[keep-alive], content-length=[0], content-security-policy=[default-src 'self'; base-uri 'none'; connect-src 'self' http: https:; font-src 'self' data:; img-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-D1jaqcDDM2TM2STrzE42NNqyKR9PlptcHDe6tyaBcuM='; style-src 'self' 'unsafe-inline'; worker-src 'none'], date=[Thu, 13 Feb 2025 02:27:30 GMT], keep-alive=[timeout=60], x-content-type-options=[nosniff], x-frame-options=[SAMEORIGIN], x-xss-protection=[0]}   
+[INFO] 20:44:15.437 Default locale: "es_MX", source code encoding: "windows-1252" (analysis is platform dependent)
+[DEBUG] 20:44:15.439 Work directory: C:\Users\Alejandro.Camacho\Documents\Git\Azure\POC-BC-ATV-BACKEND-SERVICE\sonar-test\target\sonar 
+[DEBUG] 20:44:15.440 Execution execute
+[DEBUG] 20:44:15.993 JVM max available memory: 1 GB
+[DEBUG] 20:44:16.307 Community 25.2.0.102705
+[DEBUG] 20:44:16.649 Sonar User Home: C:\Users\Alejandro.Camacho\.sonar
+[DEBUG] 20:44:16.704 Loading OS trusted SSL certificates...
+[DEBUG] 20:44:16.706 This operation might be slow or even get stuck. You can skip it by passing the scanner property 'sonar.scanner.skipSystemTruststore=true'
+[DEBUG] 20:44:16.911 Successfully loaded KeyStore of the type [Windows-ROOT] having [55] entries
+[DEBUG] 20:44:16.912 Failed to load KeyStore of the type [Windows-ROOT-LOCALMACHINE]
+[DEBUG] 20:44:17.051 Successfully loaded KeyStore of the type [Windows-ROOT-CURRENTUSER] having [55] entries
+[DEBUG] 20:44:17.077 Successfully loaded KeyStore of the type [Windows-MY] having [0] entries
+[DEBUG] 20:44:17.084 Successfully loaded KeyStore of the type [Windows-MY-CURRENTUSER] having [0] entries
+[DEBUG] 20:44:17.087 Failed to load KeyStore of the type [Windows-MY-LOCALMACHINE]
+[DEBUG] 20:44:17.091 Loaded [110] system trusted certificates
+[INFO] 20:44:17.482 Load global settings
+[DEBUG] 20:44:17.528 --> GET http://localhost:9000/api/settings/values.protobuf
+[DEBUG] 20:44:17.640 <-- 401 http://localhost:9000/api/settings/values.protobuf (109ms, 0-byte body)
+[DEBUG] 20:44:17.641 Error response content: , headers: {connection=[keep-alive], content-length=[0], content-security-policy=[default-src 'self'; base-uri 'none'; connect-src 'self' http: https:; font-src 'self' data:; img-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-D1jaqcDDM2TM2STrzE42NNqyKR9PlptcHDe6tyaBcuM='; style-src 'self' 'unsafe-inline'; worker-src 'none'], date=[Thu, 13 Feb 2025 02:44:17 GMT], keep-alive=[timeout=60], x-content-type-options=[nosniff], x-frame-options=[SAMEORIGIN], x-xss-protection=[0]}   
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.332 s
-[INFO] Finished at: 2025-02-12T20:27:30-06:00
+[INFO] Total time:  5.020 s
+[INFO] Finished at: 2025-02-12T20:44:17-06:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar (default-cli) on project sonar-test: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.ScannerPluginRepository': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.ScannerPluginInstaller': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.PluginFiles': Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'GlobalConfiguration' defined in org.sonar.scanner.bootstrap.GlobalConfigurationProvider: Unsatisfied dependency expressed through method 'provide' parameter 0: Error creating bean with name 'GlobalServerSettings' defined in org.sonar.scanner.bootstrap.GlobalServerSettingsProvider: Failed to instantiate [org.sonar.scanner.bootstrap.GlobalServerSettings]: Factory method 'provide' threw exception with message: Not authorized. Analyzing this project requires authentication. Please check the user token in the property 'sonar.token' or 'sonar.login' (deprecated). -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar (default-cli) on project sonar-test: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.ScannerPluginRepository': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.ScannerPluginInstaller': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@59bbe88a-org.sonar.scanner.bootstrap.PluginFiles': Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'GlobalConfiguration' defined in org.sonar.scanner.bootstrap.GlobalConfigurationProvider: Unsatisfied dependency expressed through method 'provide' parameter 0: Error creating bean with name 'GlobalServerSettings' defined in org.sonar.scanner.bootstrap.GlobalServerSettingsProvider: Failed to instantiate [org.sonar.scanner.bootstrap.GlobalServerSettings]: Factory method 'provide' threw exception with message: Not authorized. Analyzing this project requires authentication. Please check the user token in the property 'sonar.token' or 'sonar.login' (deprecated).
@@ -483,7 +483,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
     at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean (AbstractBeanFactory.java:334)
     at org.springframework.beans.factory.support.AbstractBeanFactory.getBean (AbstractBeanFactory.java:199)
     at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate (DependencyDescriptor.java:254)
-    at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency (DefaultListableBeanFactory.java:1631) 
+    at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency (DefaultListableBeanFactory.java:1631)
     at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency (DefaultListableBeanFactory.java:1519)   
     at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument (ConstructorResolver.java:913)
     at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray (ConstructorResolver.java:791)
@@ -812,4 +812,4 @@ Caused by: org.sonar.api.utils.MessageException: Not authorized. Analyzing this 
 [DEBUG] Shutting down 'rwlock-local' factory
 [DEBUG] Shutting down 'semaphore-local' factory
 [DEBUG] Shutting down 'noop' factory
-(base) PS C:\Users\Alejandro.Camacho\Documents\Git\Azure\POC-BC-ATV-BACKEND-SERVICE\sonar-test> 
+(base) PS C:\Users\Alejandro.Camacho\Documents\Git\Azure\POC-
